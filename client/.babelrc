@@ -1,0 +1,6 @@
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"]
+}
+
+//  "@babel/preset-env"  Transforms modern JavaScript into ES5 to run in older browsers
+//  "@babel/preset-react"  Transforms JSX into JavaScript

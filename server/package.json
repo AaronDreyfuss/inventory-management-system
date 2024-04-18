@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Node.js and Express backend for an inventory management system, featuring MongoDB for data storage, Mongoose for data modeling, and RESTful APIs for item management.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "backend",
+    "rest-api",
+    "inventory-management",
+    "database",
+    "api-server",
+    "data-management"
+  ],
+  "author": "Aaron Dreyfuss",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "mongoose": "^8.2.2"
+  }
+}

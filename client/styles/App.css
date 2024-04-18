@@ -1,0 +1,97 @@
+/* Basic reset for padding and margin to avoid inconsistencies across browsers */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+  }
+  
+  .header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .item-list {
+    margin: 20px 0;
+    list-style: none;
+  }
+  
+  .item {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-left: 5px solid #007BFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .item p {
+    margin: 0;
+  }
+  
+  .add-item-form {
+    margin-top: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .add-item-form input[type="text"],
+  .add-item-form input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .add-item-form input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .add-item-form input[type="submit"]:hover {
+    background: #0056b3;
+  }
+  
+  .button-delete {
+    cursor: pointer;
+    background: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .button-delete:hover {
+    background: #c82333;
+  }
+  
